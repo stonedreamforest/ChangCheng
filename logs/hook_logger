@@ -1,0 +1,6 @@
+[2017-05-22 21:13:43.463] [myhook_logger for changcheng] [info] 开始记录
+[2017-05-22 21:13:43.481] [myhook_logger for changcheng] [info] 函数[Mine_PSPropertyBag_Delete]->调用成功。参数[1]:0, 参数[2]:nullptr
+[2017-05-22 21:13:46.368] [myhook_logger for changcheng] [info] 停止记录
+[2017-05-22 23:29:36.339] [myhook_logger for changcheng] [info] 开始记录
+[2017-05-22 23:29:36.437] [myhook_logger for changcheng] [info] 函数[Mine_PSPropertyBag_Delete]->调用成功。参数[1]:0, 参数[2]:nullptr
+[2017-05-22 23:29:36.527] [myhook_logger for changcheng] [info] 停止记录

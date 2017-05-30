@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="windows_api_hook">
+      <UniqueIdentifier>{f9b133c4-1165-4055-9a7f-0c748a7436c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_api_hook\Windows_Environment">
+      <UniqueIdentifier>{70a7c3f9-b8da-4076-87d0-cf391c232fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_api_hook\Windows_Environment\Windows_Property_System">
+      <UniqueIdentifier>{be8d87bc-86bf-4e20-a9e4-27f927e0e549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook_init">
+      <UniqueIdentifier>{2bb7db36-ea3d-4b3c-9e87-2d5393013c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{1451a543-fdcd-44fd-8f3e-2fadd645cde2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_api_hook\Diagnostics">
+      <UniqueIdentifier>{45a90512-0380-43d4-a87f-d4ed462a2d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows_api_hook\Diagnostics\Debugging_and_Error_Handling">
+      <UniqueIdentifier>{b94e1b92-ffd4-4192-b395-3f642cd45bfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook_init\MinHook_Init.h">
+      <Filter>minhook_init</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_api_hook\Windows_Environment\Windows_Property_System\WPS.h">
+      <Filter>windows_api_hook\Windows_Environment\Windows_Property_System</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\misc.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="windows_api_hook\Diagnostics\Debugging_and_Error_Handling\ARR.h">
+      <Filter>windows_api_hook\Diagnostics\Debugging_and_Error_Handling</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="changcheng.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook_init\MinHook_Init.cpp">
+      <Filter>minhook_init</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_api_hook\Windows_Environment\Windows_Property_System\WPS.cpp">
+      <Filter>windows_api_hook\Windows_Environment\Windows_Property_System</Filter>
+    </ClCompile>
+    <ClCompile Include="misc\misc.cpp">
+      <Filter>misc</Filter>
+    </ClCompile>
+    <ClCompile Include="windows_api_hook\Diagnostics\Debugging_and_Error_Handling\ARR.cpp">
+      <Filter>windows_api_hook\Diagnostics\Debugging_and_Error_Handling</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

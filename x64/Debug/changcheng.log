@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  WPS.cpp
+  ARR.cpp
+c:\users\administrator\documents\visual studio 2015\projects\changcheng\changcheng\windows_api_hook\diagnostics\debugging_and_error_handling\arr.cpp(16): error C2065: 'ApplicationRecoveryCallback': undeclared identifier
+c:\users\administrator\documents\visual studio 2015\projects\changcheng\changcheng\windows_api_hook\diagnostics\debugging_and_error_handling\arr.cpp(16): error C2143: syntax error: missing ';' before '}'
+  misc.cpp
+c:\users\administrator\documents\visual studio 2015\projects\changcheng\changcheng\misc\misc.cpp(14): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\administrator\documents\visual studio 2015\projects\changcheng\changcheng\misc\misc.cpp(19): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  MinHook_Init.cpp
+c:\users\administrator\documents\visual studio 2015\projects\changcheng\changcheng\minhook_init\minhook_init.cpp(7): warning C4129: 'l': unrecognized character escape sequence
+  changcheng.cpp
+  Generating Code...
